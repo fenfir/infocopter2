@@ -1,0 +1,13 @@
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\InfoCopter2.exe.config
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\InfoCopter2.exe
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\InfoCopter2.pdb
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.csprojResolveAssemblyReference.cache
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\MainWindow.baml
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\MainWindow.g.cs
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\App.g.cs
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2_MarkupCompile.cache
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.g.resources
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.Properties.Resources.resources
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.csproj.GenerateResource.Cache
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.exe
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.pdb
