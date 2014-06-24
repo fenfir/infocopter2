@@ -11,3 +11,15 @@ c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\
 c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.csproj.GenerateResource.Cache
 c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.exe
 c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2.pdb
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\x64\SQLite.Interop.dll
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\x86\SQLite.Interop.dll
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\EntityFramework.dll
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\System.Data.SQLite.dll
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\System.Data.SQLite.EF6.dll
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\System.Data.SQLite.Linq.dll
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\EntityFramework.xml
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\System.Data.SQLite.xml
+c:\users\zack\documents\visual studio 2013\Projects\InfoCopter2\InfoCopter2\obj\Debug\InfoCopter2_Content.g.cs
+c:\Users\zack\Documents\Visual Studio 2013\Projects\InfoCopter2\InfoCopter2\bin\Debug\Database\infocopter.sqlite

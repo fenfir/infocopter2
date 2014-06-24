@@ -1,37 +1,33 @@
 ﻿<Window x:Class="InfoCopter2.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="452.687" Width="634.851">
+        Title="MainWindow" Height="554.287" Width="634.851">
     <Grid>
-        <GroupBox Header="Company" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="200" Width="200">
-            <StackPanel HorizontalAlignment="Left" Height="180" Margin="10,10,-2.8,-12.4" VerticalAlignment="Top" Width="180">
-                <ListBox x:Name="listboxCompany" Height="133"/>
-                <Button x:Name="btnAddCompany" Content="Add"/>
+        <GroupBox Header="Company" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Height="200" Width="200">
+            <StackPanel HorizontalAlignment="Left" Height="166" Margin="10,10,0,0" VerticalAlignment="Top" Width="170">
+                <ListBox x:Name="listboxCompany" Height="103" SelectionChanged="listboxCompany_SelectionChanged" Margin="0,0,-0.4,0"/>
+                <Button x:Name="btnAddCompany" Content="Add" Click="btnAddCompany_Click"/>
                 <Button x:Name="btnRemoveCompany" Content="Remove"/>
+                <TextBox x:Name="txtCompanyName" Height="23" TextWrapping="Wrap"/>
             </StackPanel>
         </GroupBox>
-        <GroupBox Header="Topic" HorizontalAlignment="Left" Margin="215,10,0,0" VerticalAlignment="Top" Height="200" Width="200">
-            <StackPanel HorizontalAlignment="Left" Height="180" Margin="10,10,-2.8,-12.4" VerticalAlignment="Top" Width="180">
-                <ListBox x:Name="listboxTopic" Height="133"/>
-                <Button x:Name="btnAddTopic" Content="Add"/>
+        <GroupBox Header="Topic" HorizontalAlignment="Left" Margin="215,27,0,0" VerticalAlignment="Top" Height="200" Width="200">
+            <StackPanel HorizontalAlignment="Left" Height="166" Margin="10,10,0,0" VerticalAlignment="Top" Width="170">
+                <ListBox x:Name="listboxTopic" Height="103" SelectionChanged="listboxTopic_SelectionChanged" Margin="0,0,-0.4,0"/>
+                <Button x:Name="btnAddTopic" Content="Add" Click="btnAddTopic_Click"/>
                 <Button x:Name="btnRemoveTopic" Content="Remove"/>
+                <TextBox x:Name="txtTopicName" Height="23" TextWrapping="Wrap"/>
             </StackPanel>
         </GroupBox>
-        <GroupBox Header="Date" HorizontalAlignment="Left" Margin="420,10,0,0" VerticalAlignment="Top" Height="200" Width="200">
-            <StackPanel HorizontalAlignment="Left" Height="180" Margin="10,10,-2.8,-12.4" VerticalAlignment="Top" Width="180">
-                <ListBox x:Name="listboxDate" Height="133"/>
-                <Button x:Name="btnAddDate" Content="Add"/>
-                <Button x:Name="btnRemoveDate" Content="Remove"/>
+        <GroupBox Header="Notes" HorizontalAlignment="Left" Margin="420,27,0,0" VerticalAlignment="Top" Height="200" Width="200">
+            <StackPanel HorizontalAlignment="Left" Height="166" Margin="10,10,0,0" VerticalAlignment="Top" Width="170">
+                <ListBox x:Name="listboxNote" Height="103" Margin="0,0,-0.4,0" SelectionChanged="listboxNote_SelectionChanged"/>
+                <Button x:Name="btnAddNote" Content="Add" Click="btnAddNote_Click"/>
+                <Button x:Name="btnRemoveNote" Content="Remove"/>
             </StackPanel>
         </GroupBox>
-        <GroupBox Header="Note" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top" Height="200" Width="609">
-            <RichTextBox x:Name="txtNote" HorizontalAlignment="Left" Height="162" Margin="10,10,0,0" VerticalAlignment="Top" Width="576">
-                <FlowDocument>
-                    <Paragraph>
-                        <Run Text="RichTextBox"/>
-                    </Paragraph>
-                </FlowDocument>
-            </RichTextBox>
+        <GroupBox Header="Note" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" Height="200" Width="609">
+            <TextBox x:Name="txtNote" HorizontalAlignment="Left" Height="169" Margin="10,0,0,0" TextWrapping="Wrap" Text="{Binding Path=Text, Mode=TwoWay}" VerticalAlignment="Top" Width="578"/>
         </GroupBox>
     </Grid>
 </Window>
