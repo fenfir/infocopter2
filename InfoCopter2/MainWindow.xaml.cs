@@ -87,18 +87,29 @@ namespace InfoCopter2
             listboxCompany.ItemsSource = repo.GetCompanies();
             listboxCompany.DisplayMemberPath = "CompanyName";
             listboxCompany.SelectedValuePath = "Id";
+
+            if (listboxCompany.HasItems)
+                listboxCompany.SelectedIndex = 0;
         }
 
         private void SetCompanyTopics(long CompanyId)
         {
             listboxTopic.ItemsSource = repo.GetCompanyTopics(CompanyId);
             listboxTopic.DisplayMemberPath = "TopicName";
+            listboxTopic.SelectedValuePath = "Id";
+
+            if (listboxTopic.HasItems)
+                listboxTopic.SelectedIndex = 0;
         }
 
         private void SetTopicNotes(long TopicId)
         {
             listboxNote.ItemsSource = repo.GetTopicNotes(TopicId);
             listboxNote.DisplayMemberPath = "Date";
+            listboxTopic.SelectedValuePath = "Id";
+
+            if (listboxNote.HasItems)
+                listboxNote.SelectedIndex = 0;
         }
 
         private void SetNote(long NoteId)
